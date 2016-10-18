@@ -1,0 +1,92 @@
+/**
+ * @author Jan-Christoph Borchardt, http://jancborchardt.net
+ * @copyright Copyright (c) 2015, ownCloud, Inc.
+ * @license AGPL-3.0
+ *
+ * This code is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License, version 3,
+ * as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License, version 3,
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+
+/* header color */
+/* this is the main brand color */
+#body-user #header,
+#body-settings #header,
+#body-public #header {
+	background-color: #1794d1;
+}
+
+/* log in screen background color */
+/* gradient of the header color and a brighter shade */
+/* can also be a flat color or an image */
+#body-login {
+	background: #1794d1; /* Old browsers */
+	background: -moz-linear-gradient(top, #37b4f1 0%, #1794d1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#37b4f1), color-stop(100%,#1794d1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* IE10+ */
+	background: linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37b4f1', endColorstr='#1794d1',GradientType=0 ); /* IE6-9 */
+}
+
+#app-navigation, .nav-trashbin, .settings-button, .settings-button:hover, .settings-button:focus {
+	background-color: #f5f5f5;
+	border-right: 0px;
+}
+
+#app-settings-content, #app-settings-header {
+	border-right: 0px;
+}
+
+#controls {
+	background-color: rgba(250, 250, 250, .95);
+}
+
+#filestable tbody tr, table thead th {
+	background-color: #fafafa;
+}
+
+#filestable tbody tr:hover, #filestable tbody tr:focus, #filestable tbody .name:focus, #filestable tbody tr:active, #filestable tbody tr.highlighted, #filestable tbody tr.highlighted .name:focus, #filestable tbody tr.selected, #filestable tbody tr.searchresult, table tr.mouseOver td, tbody tr:hover, tbody tr:focus, tbody tr:active {
+	background-color: #eee;
+}
+
+table th, table td, table.grid th, table.grid td {
+	border-bottom: 1px solid #f5f5f5;
+	border-top: 0px !important;
+}
+
+.summary {
+	background-color: #fafafa;
+	opacity: 1;
+	color: #b2b2b2;
+}
+
+#container, #controls, #app-content {
+	background: #fafafa;
+}
+
+#content-wrapper {
+	background-color: #fafafa !important;
+}
+
+/* use logos from theme */
+#header .logo {
+	background-image: url('../img/logo.svg');
+	width: 250px;
+	height: 121px;
+}
+#header .logo-icon {
+	background-image: url('../img/logo-icon.svg');
+	width: 62px;
+	height: 34px;
+}
