@@ -6,3 +6,7 @@ To install simply copy the desired directory to `[nextcloud install dir]/themes`
 ![material login screenshot](./screenshots/material_login.png)
 
 ![material light files list screenshot](./screenshots/material_light.png)
+## Material Dark
+![material login screenshot](./screenshots/material_login.png)
+
+![material light files list screenshot](./screenshots/material_dark.png)
